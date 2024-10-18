@@ -13,18 +13,54 @@
             text-align: center;
             color: #fff;
         }
+        .tv-frame {
+            width: 883px; /* Image width */
+            height: 873px; /* Image height */
+            margin: 0 auto;
+            background: url('tv-frame.png') no-repeat center center;
+            background-size: cover;
+            position: relative;
+        }
+        .tv-screen {
+            position: absolute;
+            top: 272px; /* Adjust based on your image */
+            left: 198px; /* Adjust based on your image */
+            width: 394px; /* Adjust based on your image */
+            height: 343px; /* Adjust based on your image */
+            overflow-y: scroll; /* Adds vertical scrollbar */
+            overflow-x: hidden; /* Hides horizontal scrollbar */
+            padding: 10px; /* Adds some padding */
+            box-sizing: border-box; /* Makes padding inside the box */
+            background: rgba(0, 0, 0, 0.7); /* Slightly transparent black background */
+        }
         .about-me {
-            margin: 20px;
-            padding: 20px;
+            padding: 10px; /* Adjust padding to fit the TV */
             border: 1px solid #fff;
             background-color: #333;
+        }
+        .social-links {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
         }
     </style>
 </head>
 <body>
     <h1>About the Anthony Family</h1>
-    <div class="about-me">
-        <p>We're just a couple of wild kooks who enjoy some pretty wild things. We've been happily married for over 10 years. We're a lower class American family who believes in life, liberty, and the pursuit of happiness.</p>
+    <div class="tv-frame">
+        <div class="tv-screen">
+            <div class="about-me">
+                <p>We're just a couple of wild kooks who enjoy some pretty wild things. We've been happily married for over 10 years. We're a lower class American family who believes in life, liberty, and the pursuit of happiness.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/YourProfile" target="_blank">Facebook</a> | 
+                    <a href="https://www.twitter.com/YourProfile" target="_blank">Twitter</a>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
