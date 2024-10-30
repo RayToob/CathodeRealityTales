@@ -14,6 +14,15 @@
             text-align: center;
             color: #fff; /* White text for h1 */
         }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
         .tv-frame {
             width: 883px; /* Image width */
             height: 873px; /* Image height */
@@ -34,37 +43,22 @@
             box-sizing: border-box; /* Makes padding inside the box */
             background: rgba(0, 0, 0, 0.7); /* Slightly transparent black background */
         }
-        table {
-            width: 100%;
-            height: 100%;
-            border-collapse: collapse;
-            color: #fff; /* White text in table */
-            background: rgba(0, 0, 0, 0.7); /* Slightly transparent black background */
-        }
-        th, td {
-            padding: 10px;
-            border: 1px solid #fff; /* White borders */
-        }
-        th {
-            background-color: #333; /* Darker background for headers */
-        }
-       a.story-link {
-    color: #fff; /* White color for the link */
-    text-decoration: underline; /* Underline the link */
-    font-weight: bold; /* Make it bold */
-}
-a.story-link:hover {
-    color: #f00; /* Red color when hovered */
-    text-decoration: none; /* Remove underline on hover */
-        }
-        nav {
+        .season-links {
             text-align: center;
-            margin: 20px 0;
+            background-color: #ccc; /* Light gray background */
+            color: #000; /* Black text */
+            margin: 10px auto;
+            padding: 10px;
+            border: 2px solid #00f; /* Blue border */
         }
-        nav a {
-            color: #fff;
+        .season-links a {
+            color: #00f; /* Blue text for links */
             text-decoration: none;
-            margin: 0 10px;
+            display: block;
+            margin: 5px 0;
+        }
+        .season-links span {
+            color: #000; /* Black text for season info */
         }
         footer {
             text-align: center;
@@ -78,96 +72,14 @@ a.story-link:hover {
     <h1>[//Cathode Reality Tales::]</h1>
     <div class="tv-frame">
         <div class="tv-screen">
-            <table>
-                <tr>
-                    <th>Story Title</th>
-                    <th>Author</th>
-                </tr>
-               <tr>
-    <td><a href="Dystopia.html" class="story-link">1. Dystopia</a></td>
-    <td>Louis Anthony</td>
-</tr>
-                <tr>
-                    <td><a href="Darkness.html" class="story-link">2. Darkness</a></td>
-                    <td>Shelcey Anthony</td>
-                </tr>
-                <tr>
-                    <td><a href="Watcher.html" class="story-link">3. The Watcher</a></td>
-                    <td>Louis Anthony</td>
-                </tr>
-                <tr>
-                    <td><a href="Lights.html" class="story-link">4. The Lights</a></td>
-                    <td>Louis Anthony</td>
-                </tr>
-                <tr>
-                    <td><a href="Journalisming.html" class="story-link">5. Jornalisming</a></td>
-                    <td>Shelcey Anthony</td>
-                </tr>
-                <tr>
-                    <td><a href="Ride.html" class="story-link">6. The Ride</a></td>
-                    <td>Louis Anthony</td>
-                </tr>
-                <tr>
-                    <td><a href="Friends.html" class="story-link">7. Friends</a></td>
-                    <td>Louis Anthony</td>
-                </tr>
-                <tr>
-                    <td><a href="Veileater.html" class="story-link">8. Veil Eater</a></td>
-                    <td>Louis Anthony</td>
-                </tr>
-                <tr>
-                    <td><a href="Visitor.html" class="story-link">9. The Visitor</a></td>
-                    <td>Louis Anthony</td>
-                </tr>
-                <tr>
-                    <td><a href="Schwartz.html" class="story-link">10. Schwarzfield</a></td>
-                    <td>Louis Anthony</td>
-                </tr>
-                <tr>
-                    <td><a href="C_Loss.html" class="story-link">11. Lost at Sea</a></td>
-                    <td>Louis Anthony</td>
-                </tr>
-                <tr>
-                    <td><a href="HungerCoil.html" class="story-link">12. The Hunger Coil</a></td>
-                    <td>Louis Anthony
-                </tr>
-                <tr>
-                    <td><a href="Inferiority.html" class="story-link">13. Inferiority</a></td>
-                    <td>Louis Anthony</td>
-                </tr>
-                <tr>
-                    <td><a href="LastWoman.html" class="story-link">14. The Last Man on Earth</a></td>
-                    <td>Louis Anthony</td>
-                </tr>
-                <tr>
-                    <td><a href="Stone.html" class="story-link">15. Stone</a></td>
-                    <td>Louis Anthony</td>
-                </tr>
-                <tr>
-                    <td><a href="Arrangements.html" class="story-link">16. Arrangements</a></td>
-                    <td>Shelcey Anthony</td>
-                </tr>
-                <tr>
-                    <td><a href="Christmas.html" class="story-link">17. The Morning of</a></td>
-                    <td>Louis Anthony</td>
-                </tr>
-                <tr>
-                    <td><a href="House.html" class="story-link">18. This Old House</a></td>
-                    <td>Louis Anthony</td>
-                </tr>
-                <tr>
-                    <td><a href="DoctorBeat.html" class="story-link">19. Paging Doctor Beat</a></td>
-                    <td>Louis Anthony</td>
-                </tr>
-                <tr>
-                    <td><a href="SH1.html" class="story-link">20. Samhane</a></td>
-                    <td>Louis Anthony</td>
-                </tr>
-                <tr>
-                    <td><a href="SH2.html" class="story-link">21. Samhane II</a></td>
-                    <td>Louis Anthony</td>
-                </tr>
-            </table>
+            <div class="season-links">
+                <a href="season1.html">Season 1</a>
+                <span>(Info about Season 1)</span>
+            </div>
+            <div class="season-links">
+                <a href="season2.html">Season 2</a>
+                <span>(Info about Season 2)</span>
+            </div>
         </div>
     </div>
     <nav>
