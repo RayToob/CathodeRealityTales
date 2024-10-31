@@ -35,6 +35,19 @@
             box-sizing: border-box; /* Makes padding inside the box */
             background: rgba(0, 0, 0, 0.7); /* Slightly transparent black background */
         }
+.ad-space {
+    background-color: #000; /* Black background */
+    color: #fff; /* White font color */
+    padding: 10px;
+    border: 2px dashed yellow; /* Yellow border */
+    margin: 20px;
+    width: 200px; /* Adjust width as needed */
+    float: left; /* Float ads to the left side of the TV frame */
+}
+.ad-space.right {
+    float: right; /* Float ads to the right side of the TV frame */
+}
+
         h2 {
             text-align: center;
             color: #fff; /* White text for h2 */
@@ -78,6 +91,13 @@
 </head>
 <body>
     <h1>[//Cathode Reality Tales::]</h1>
+  <div class="ad-space">
+        YOUR AD HERE!
+    </div>
+    <div class="ad-space right">
+        YOUR AD HERE!
+    </div>
+    <div class="clear"></div> <!-- Clear floats -->
     <div class="tv-frame">
         <div class="tv-screen">
             <div class="title-section">
