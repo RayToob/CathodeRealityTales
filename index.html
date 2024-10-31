@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Cathode Reality Tales</title>
+<meta name="description" content="Dive into the eerie world of Cathode Reality Tales with Ray Toob. Presented by four ghosts.">
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -53,12 +55,24 @@
         }
         .season-links a {
             color: #00f; /* Blue text for links */
-    text-decoration: underline; /* Underline text for links */
+            text-decoration: underline; /* Underline text for links */
             display: block;
             margin: 5px 0;
         }
         .season-links span {
             color: #000; /* Black text for season info */
+        }
+        .ad-space {
+            background-color: yellow;
+            color: #000;
+            padding: 10px;
+            border: 2px dashed #00f; /* Dashed blue border */
+            margin: 20px;
+            width: 200px; /* Adjust width as needed */
+            float: left; /* Float ads to the left side of the TV frame */
+        }
+        .ad-space.right {
+            float: right; /* Float ads to the right side of the TV frame */
         }
         footer {
             text-align: center;
@@ -66,10 +80,20 @@
             font-size: 12px;
             color: #777;
         }
+        .clear {
+            clear: both;
+        }
     </style>
 </head>
 <body>
     <h1>[//Cathode Reality Tales::]</h1>
+    <div class="ad-space">
+        YOUR AD HERE!
+    </div>
+    <div class="ad-space right">
+        YOUR AD HERE!
+    </div>
+    <div class="clear"></div> <!-- Clear floats -->
     <div class="tv-frame">
         <div class="tv-screen">
             <div class="season-links">
