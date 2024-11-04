@@ -42,26 +42,26 @@
             font-weight: bold; /* Bold font */
             margin-bottom: 10px; /* Space below the header */
         }
-/* For WebKit browsers */
+/* Custom Scrollbar Styles */
 ::-webkit-scrollbar {
-    width: 12px; /* Width of the scrollbar */
+    width: 8px; /* Slightly smaller width for subtlety */
 }
 
 ::-webkit-scrollbar-track {
-    background: #333; /* Color of the track */
+    background: transparent; /* Transparent track */
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #0af; /* Color of the thumb */
+    background: rgba(255, 255, 255, 0.2); /* Very light and transparent thumb */
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #00f; /* Color of the thumb when hovered */
+    background: rgba(255, 255, 255, 0.4); /* Slightly more visible on hover */
 }
 
 /* For Firefox */
-scrollbar-color: #0af #333; /* thumb color, track color */
-scrollbar-width: thin; /* scrollbar width */
+scrollbar-color: rgba(255, 255, 255, 0.2) transparent; /* thumb color, track color */
+scrollbar-width: thin; /* thin scrollbar */
 
         .title-section {
             text-align: center;
