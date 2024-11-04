@@ -42,6 +42,27 @@
             font-weight: bold; /* Bold font */
             margin-bottom: 10px; /* Space below the header */
         }
+/* For WebKit browsers */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #333; /* Color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0af; /* Color of the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #00f; /* Color of the thumb when hovered */
+}
+
+/* For Firefox */
+scrollbar-color: #0af #333; /* thumb color, track color */
+scrollbar-width: thin; /* scrollbar width */
+
         .title-section {
             text-align: center;
             margin-bottom: 20px;
