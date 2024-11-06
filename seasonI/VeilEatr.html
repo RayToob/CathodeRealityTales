@@ -7,73 +7,112 @@
 <meta name="keywords" content="Cathode Reality Tales, Ray Toob, CRT, horror stories, dystopia, eerie tales, four ghosts">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #000; /* Black background */
-            color: #fff; /* White text */
-        }
-        h1 {
-            text-align: center;
-            color: #fff; /* White text for h1 */
-        }
-        .tv-frame {
-            width: 883px; /* Image width */
-            height: 873px; /* Image height */
-            margin: 0 auto;
-            background: url('tv-frame.png') no-repeat center center;
-            background-size: cover;
-            position: relative;
-        }
-        .tv-screen {
-            position: absolute;
-            top: 272px; /* Adjust based on your image */
-            left: 198px; /* Adjust based on your image */
-            width: 394px; /* Adjust based on your image */
-            height: 343px; /* Adjust based on your image */
-            overflow-y: scroll; /* Adds vertical scrollbar */
-            overflow-x: hidden; /* Hides horizontal scrollbar */
-            padding: 10px; /* Adds some padding */
-            box-sizing: border-box; /* Makes padding inside the box */
-            background: rgba(0, 0, 0, 0.7); /* Slightly transparent black background */
-        }
-        h2 {
-            text-align: center;
-            color: #fff; /* White text for h2 */
-            font-size: 24px; /* Bigger font size */
-            font-weight: bold; /* Bold font */
-            margin-bottom: 10px; /* Space below the header */
-        }
-        .title-section {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .title-section p {
-            margin: 5px 0; /* Space between paragraphs */
-        }
-        .title-small {
-            font-size: 14px; /* Smallest font size */
-        }
-        .title-large {
-            font-size: 28px; /* Largest font size */
-            font-weight: bold; /* Bold font */
-        }
-        .title-medium {
-            font-size: 20px; /* Medium font size */
-        }
-        nav {
-            text-align: center;
-            margin-top: 20px;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-        footer {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 12px;
-            color: #777;
-        }
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    text-align: center; /* Center text globally */
+}
+h1 {
+    text-align: center;
+    color: #fff; /* White text for h1 */
+}
+.tv-frame {
+    width: 883px; /* Image width */
+    height: 873px; /* Image height */
+    margin: 20px auto; /* Center the TV frame */
+    background: url('../tv-frame.png') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+.tv-screen {
+    position: absolute;
+    top: 272px; /* Adjust based on your image */
+    left: 198px; /* Adjust based on your image */
+    width: 394px; /* Adjust based on your image */
+    height: 343px; /* Adjust based on your image */
+    overflow-y: scroll; /* Adds vertical scrollbar */
+    overflow-x: hidden; /* Hides horizontal scrollbar */
+    padding: 10px; /* Adds some padding */
+    box-sizing: border-box; /* Makes padding inside the box */
+    background: rgba(0, 0, 0, 0.7); /* Slightly transparent black background */
+}
+.ad-space {
+    background-color: #000; /* Black background */
+    color: #fff; /* White font color */
+    padding: 10px;
+    border: 2px dashed yellow; /* Yellow border */
+    margin: 20px;
+    width: 200px; /* Adjust width as needed */
+    float: left; /* Float ads to the left side of the TV frame */
+}
+.ad-space.right {
+    float: right; /* Float ads to the right side of the TV frame */
+}
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    color: #fff; /* White text in table */
+    background: rgba(0, 0, 0, 0.7); /* Slightly transparent black background */
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #fff; /* White borders */
+}
+th {
+    background-color: #333; /* Darker background for headers */
+}
+a.story-link {
+    color: #fff; /* White color for the link */
+    text-decoration: underline; /* Underline the link */
+    font-weight: bold; /* Make it bold */
+}
+a.story-link:hover {
+    color: #f00; /* Red color when hovered */
+    text-decoration: none; /* Remove underline on hover */
+}
+h2 {
+    text-align: center;
+    color: #fff; /* White text for h2 */
+    font-size: 24px; /* Bigger font size */
+    font-weight: bold; /* Bold font */
+    margin-bottom: 10px; /* Space below the header */
+}
+.title-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.title-section p {
+    margin: 5px 0; /* Space between paragraphs */
+}
+.title-small {
+    font-size: 14px; /* Smallest font size */
+}
+.title-large {
+    font-size: 28px; /* Largest font size */
+    font-weight: bold; /* Bold font */
+}
+.title-medium {
+    font-size: 20px; /* Medium font size */
+}
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #777;
+}
+.clear {
+    clear: both;
+}
     </style>
 </head>
 <body>
