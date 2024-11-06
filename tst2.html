@@ -2,48 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Cathode Reality Tales</title>
-<meta name="description" content="Dive into the eerie world of Cathode Reality Tales with Ray Toob. Presented by four ghosts.">
-<meta name="keywords" content="Cathode Reality Tales, Ray Toob, CRT, horror stories, dystopia, eerie tales, four ghosts">
+    <title>About Me</title>
+<meta name="description" content="Learn about the creators of the eerie world of Cathode Reality Tales with Ray Toob. Presented by four ghosts.">
+<meta name="keywords" content="Cathode Reality Tales, Ray Toob, CRT, horror stories, dystopia, eerie tales, four ghosts, wildgunblade">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #000; /* Black background */
-            color: #fff; /* White text */
-            text-align: center; /* Center text globally */
-        }
-        h1 {
-            text-align: center;
-            color: #fff; /* White text for h1 */
-        }
-        .tv-frame {
-            width: 883px; /* Image width */
-            height: 873px; /* Image height */
-            margin: 20px auto; /* Center the TV frame */
-            background: url('tv-frame.png') no-repeat center center;
-            background-size: cover;
-            position: relative;
-        }
-        .tv-screen {
-            position: absolute;
-            top: 272px; /* Adjust based on your image */
-            left: 198px; /* Adjust based on your image */
-            width: 394px; /* Adjust based on your image */
-            height: 343px; /* Adjust based on your image */
-            overflow-y: scroll; /* Adds vertical scrollbar */
-            overflow-x: hidden; /* Hides horizontal scrollbar */
-            padding: 10px; /* Adds some padding */
-            box-sizing: border-box; /* Makes padding inside the box */
-            background: rgba(0, 0, 0, 0.7); /* Slightly transparent black background */
-        }
+         body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    text-align: center; /* Center text globally */
+}
+h1 {
+    text-align: center;
+    color: #fff; /* White text for h1 */
+}
+.tv-frame {
+    width: 883px; /* Image width */
+    height: 873px; /* Image height */
+    margin: 20px auto; /* Center the TV frame */
+    background: url('tv-frame.png') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+.tv-screen {
+    position: absolute;
+    top: 272px; /* Adjust based on your image */
+    left: 198px; /* Adjust based on your image */
+    width: 394px; /* Adjust based on your image */
+    height: 343px; /* Adjust based on your image */
+    overflow-y: scroll; /* Adds vertical scrollbar */
+    overflow-x: hidden; /* Hides horizontal scrollbar */
+    padding: 10px; /* Adds some padding */
+    box-sizing: border-box; /* Makes padding inside the box */
+    background: rgba(0, 0, 0, 0.7); /* Slightly transparent black background */
+}
 .ad-space {
     background-color: #000; /* Black background */
     color: #fff; /* White font color */
     padding: 10px;
     border: 2px dashed yellow; /* Yellow border */
     margin: 20px;
-    width: 400px; /* Increased width */
-    height: 300px; /* Added height */
+    width: 200px; /* Adjust width as needed */
     float: left; /* Float ads to the left side of the TV frame */
 }
 .ad-space.right {
@@ -107,40 +106,80 @@ nav a {
 }
 footer {
     text-align: center;
-    margin: 20px 0;
+    margin-top: 20px;
     font-size: 12px;
     color: #777;
 }
 .clear {
     clear: both;
 }
-</style>
+.about-me {
+    background-color: #000; /* black background */
+    padding: 20px; /* Adds generous padding for better spacing */
+    margin: 10px auto; /* Center it within the tv-screen */
+    max-width: 350px; /* Ensures the width is controlled within the tv-screen */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+}
+.about-heading {
+    text-align: center; /* Centers the text */
+    font-weight: bold; /* Makes the text bold */
+    margin-bottom: 20px; /* Adds space below the heading */
+    color: #fff; /* Optional: change the color if needed */
+}
+.about-me-table {
+    width: 100%; /* Full width of the container */
+    border-collapse: collapse; /* Ensure no gaps between cells */
+}
+.about-me-table td {
+    border: 2px solid #000; /* Black border for each cell */
+    padding: 20px; /* Adds padding inside each cell */
+    vertical-align: top; /* Align content to the top of the cells */
+    background-color: #303030; /* Match background color of .about-me */
+}
+    </style>
 </head>
 <body>
     <h1>[//Cathode Reality Tales::]</h1>
     <div class="ad-space">
-        <a href="mailto:your.email@example.com" style="color: #fff; text-decoration: none;">YOUR AD HERE!</a>
+        YOUR AD HERE!
     </div>
     <div class="ad-space right">
-        <a href="mailto:your.email@example.com" style="color: #fff; text-decoration: none;">YOUR AD HERE!</a>
-    </div>    
+        YOUR AD HERE!
+    </div>
     <div class="clear"></div> <!-- Clear floats -->
     <div class="tv-frame">
         <div class="tv-screen">
-            <div class="title-section">
-                <p class="title-small">Cathode Reality Tales</p>
-                <p class="title-large">Story 1- "Dystopia"</p>
-                <p class="title-small">(written by: Louis Anthony)</p>
+            <div class="about-me">
+                <!-- New heading added here -->
+                <h2 class="about-heading">About the Anthony Family</h2>
+                <table class="about-me-table">
+                    <tr>
+                        <td>
+                            <p>We're just a couple of wild kooks who enjoy some pretty wild things. We've been happily married for over 10 years. We're a lower class American family who believes in life, liberty, and the pursuit of happiness.</p>
+                            <p>We love pet rats, movies, television, and video games. We play on Xbox and retro consoles. We don't have a favorite holiday. Any more questions find us on a social media site, but do know that we give no guarantees, except that there are no guarantees.</p>
+                        </td>
+                    </tr>
+                </table>
+                <!-- Image positioned between the text and social links -->
+                <img src="wildkooks.png" alt="The Anthonys Image" style="display: block; margin: 20px auto; max-width: 100%;">
+                <table class="about-me-table">
+                    <tr>
+                        <td class="social-links">
+                            <a href="https://www.facebook.com/profile.php?id=61556771471871" target="_blank">Facebook</a> | 
+                            <a href="https://x.com/WildGunblade" target="_blank">X</a>
+                        </td>
+                    </tr>
+                </table>
             </div>
-            <img src="images/Dystopia.png" alt="Dystopian Image" style="display: block; margin: 20px auto; max-width: 100%;">
         </div>
     </div>
     <nav>
-        <a href="about.html">About Me</a> |
-        <a href="index.html">Stories Home</a>
-    </nav>
+    <a href="about.html">About Me</a> |
+    <a href="index.html">Stories Home</a> |
+    <a href="https://patreon.com/CathodeRealityTales?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink">Patreon</a>
+</nav>
     <footer>
-        <p>&copy; MMXXIV four ghosts. All Rights Reserved.</p>
+        <p>&copy; MMXXIV Four Ghosts. All Rights Reserved.</p>
         <p>All content on this site, including text, graphics, logos, and images, is the property of Four Ghosts and protected by applicable copyright laws.</p>
     </footer>
 </body>
