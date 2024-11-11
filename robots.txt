@@ -1,3 +1,4 @@
 User-agent: *
-Disallow: /YOUR-REPOSITORY-PATH/
-Allow: /YOUR-REPOSITORY-PATH/sitemap.xml
+Disallow: /RayToob/CathodeRealityTales/
+Allow: /RayToob/CathodeRealityTales/sitemap.xml
+Allow: /
